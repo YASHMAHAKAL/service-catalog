@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: orders-service
+  description: Handles customer orders in the e-commerce system
+  tags:
+    - nodejs
+    - service
+spec:
+  type: service
+  owner: payments-team
+  lifecycle: experimental
+

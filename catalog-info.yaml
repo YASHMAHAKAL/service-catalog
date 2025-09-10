@@ -6,6 +6,8 @@ metadata:
   tags:
     - nodejs
     - service
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: payments-team
